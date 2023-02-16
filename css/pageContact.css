@@ -1,0 +1,102 @@
+
+
+/* Polices d'écritures */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto+Condensed:wght@700&family=Sono:wght@500&family=Sunflower:wght@500&display=swap");
+
+*
+{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+textarea {
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+ 
+input[type=textarea]{
+  
+    padding: 10px;
+    max-width: 100%;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+}
+ input[type=bouton1]{
+border: none;
+box-sizing: border-box;
+width: 350px; 
+block-size: 50px;
+background-color: #2c3757;
+font-size: 15px;
+font-family: cursive, sans-serif;
+color: #ffff;
+padding: 16px;
+margin: 16px;
+transition: opacity .4s;
+  
+}
+input[type=bouton1]:hover ,  input[type=bouton2]:hover{
+   border: none;
+box-sizing: border-box;
+border-bottom: 1px solid #999;
+cursor: pointer;
+} 
+  
+body{
+ background: #53515f;
+}
+#container{
+ width:400px;
+ margin:0 auto;
+ margin-top:10%;
+
+
+}
+/* Bordered form */
+form {
+ width:100%;
+ padding: 30px;
+ border: 1px solid #3E3E54;
+ background: #2c3757;
+ box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+#container h1{
+ width: 50%;
+ margin: 0 auto;
+ padding-bottom: 10px;
+}
+
+/* Full-width inputs */
+input {
+  background-color: #2c3757;
+ width: 100%;
+ padding: 12px 20px;
+ margin: 8px 0;
+ display: inline-block;
+ box-sizing: border-box;
+ border: none;
+ border-bottom: 1px solid #999;
+  box-sizing: border-box;
+  
+
+}
+
+/* Set a style for all buttons */
+input[type=submit] {
+ background-color: #ec1b89;
+ color: white;
+ padding: 14px 20px;
+ margin: 8px 0;
+ border: none;
+ cursor: pointer;
+ width: 100%;
+}
+  
+input[type=submit]:hover {
+ background-color: white;
+ color: #3E3E54;
+ border: 1px solid #53af57;
+}
+  
+

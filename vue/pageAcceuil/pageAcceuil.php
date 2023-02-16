@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/acceuil.css">
+    <?php include("vue/pageAcceuil/acceuil.php");?>
+	
+    <script src="acceuil.js"></script>
+  </head>
+  <body>
+    <div id=fond-haut>
+	
+      <div id="container">
+	  <?php 
+	echo "Bonjour";
+	echo "$title";?>
+        <button id="prev-button">Précédent</button>
+        <div id="book-info">
+          <img id="book-image" src= <?php echo $Livre1[1]; ?> >
+          <h1 id="book-title"> <?php echo $Livre1[0]; ?></h1>
+          <p id="book-author"><?php echo $Livre1[2]; ?></p>
+         <p id="book-description"></p>
+        </div>
+        <button id="next-button">Suivant</button>
+      </div>
+    </div>
+  <script type="text/javascript" src="script.js"></script>
+    <div id='bas-page'>
+      <h1>Actualité de la bibliothèque </h1>
+      <div id='new-sortie'>  
+        <img src='https://m.media-amazon.com/images/I/31APBTWavBL._SX328_BO1,204,203,200_.jpg'>
+        <div id='resume' >
+          <h2> NOUVELLE SORTIE</h2>
+            <p>Vladimir Shankly, quinze ans, reçoit pour son anniversaire un drôle de cadeau de la part de son père : un smarphone ultra-moderne non encore commercialisé, le Totem. Bien vite, Vladimir s'aperçoit que ce smartphone est un peu spécial : via un assistant vocal très sagace appelé Cyrano, le Totem est capable de pénétrer l'esprit de l'adolescent et de communiquer avec lui directement dans sa tête. Vladimir, ainsi que ses deux meilleurs amis, Foued et Enig, comprennent rapidement les possibilités immenses du Totem : séduire les filles, tricher lors des interrogations écrites... Mais bientôt, un mystérieux inconnu et ses sinistres acolytes débarquent. Mandatés par une holding ayant fait fortune dans les technologies numériques, ils sont à la recherche du Totem et sont prêts à tout pour remettre la main dessus. Le Totem n'est-il pas un objet beaucoup plus puissant et dangereux qu'il n'y paraît ? Et pourquoi le père de Vlad le lui a-t-il confié ?</p>  
+        </div>
+      </div>
+      <div id='reportage'>
+      <h2> NOUVEAUX ARTICLES POUR MIEUX COMPRENDRE LA GUERRE D'UKRAINE </h2>
+        <img src='https://media.lesechos.com/api/v1/images/view/624224719a86af163b0fd9e5/1280x720/0701236488795-web-tete.jpg'>
+      </div>
+    </div>
+  </body>
+</html>

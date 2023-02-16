@@ -1,0 +1,41 @@
+<!-- fichier HTML -->
+
+<!-- en-tête HTML -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Menu de navigation</title>
+  <link rel="stylesheet" href="css/header.css">
+</head>
+
+<!-- corps HTML -->
+<body><div class="MENU">
+  <!-- conteneur du menu -->
+  <nav>
+    <!-- logo de l'IUT d'Orsay -->
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Logo_Universit%C3%A9_Paris-Saclay.svg/1200px-Logo_Universit%C3%A9_Paris-Saclay.svg.png" alt="Logo IUT d'Orsay" href="#">
+    <!-- barre de recherche -->
+    <form>
+      <input type="text" placeholder="Rechercher">
+      <button type="submit"><img src="https://cdn-icons-png.flaticon.com/512/694/694985.png" alt="Loupe"></button>
+    </form>
+    <!-- bouton "Se connecter" -->
+    <button class="connect">
+        <form action="index.php" method="get">
+            <a href="index.php?page=deco">Se déconnecter</a>
+        </form></button>
+
+  </nav>
+  <!-- conteneur du rectangle -->
+  <div class="rectangle">
+    <!-- liens vers les 4 catégories -->
+    <a href="index.php?page=nosLivre">Nos Livres</a>
+    <a href="index.php?page=notreBibli">Notre Bibliothèque</a>
+    <a href="index.php?page=horaires">Nos Horaires</a>
+    <a href="index.php?page=emprunt">Emprunter un Livre</a>
+    <a href="index.php?page=contact">Nous Contacter</a>
+    <a href="index.php?page=pageMonCompte">Menu Administrateur</a>
+  </div>
+</div>
+</body>
+</html>

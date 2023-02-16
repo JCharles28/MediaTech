@@ -1,0 +1,96 @@
+/* Polices d'écritures */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto+Condensed:wght@700&family=Sono:wght@500&family=Sunflower:wght@500&display=swap");
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+#fond-haut{
+  margin:0%;
+  padding-bottom: 15%;
+  width:100%;
+  background-size: cover;
+  background-image: url('http://www.universite-paris-saclay.fr/sites/default/files/2020-09/Bibliotheque-universitaire_0_0.jpg');
+  background-repeat: no-repeat;
+}
+#container p{
+  text-align: center;
+}
+#container {
+    width: 80%;
+    margin: 10%;
+    display: flex;
+    background-color: #c64e8d;
+}
+
+#book-image {
+    width: 350px;
+    margin: 0 auto;
+}
+
+#book-info {
+    margin: 20px auto;
+    text-align: center;
+}
+
+#book-title {
+    font-size: 24px;
+    font-weight: bold;
+    -bottom: 10px;
+}
+
+#prev-button, #next-button {
+    width: 15%;
+    height:30%;
+    padding: 10px;
+    text-align:center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 15px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+#new-sortie {
+  display: flex;
+
+  
+}
+#reportage {
+  background-color: #c64e8d;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 10%;
+  padding-bottom:0.5%;
+  }
+#reportage img{
+  width: 90%;
+  margin: auto;
+  display:flex ;
+  margin-bottom: 10%;
+}
+  #resume{
+      background-color:  #c64e8d;
+  }
+  #resume p{
+    text-align: center;
+    font-size: 130%;
+    margin: 10%;
+    margin-top: 0%;
+  }
+#new-sortie {
+  margin: 10%;
+}
+#new-sortie img{
+  margin-right: 5%;
+}
+  h2{
+    text-decoration: underline;  
+    text-align: center;
+}
+h1{
+  text-align: center;
+}
+#bas-page{
+  background-color:#3e3e54 ;
+}

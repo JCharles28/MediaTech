@@ -1,0 +1,21 @@
+#book{
+background-color: #c64e8d;
+width:20%;
+padding: 5%;
+margin: auto;
+margin-bottom: 5%;
+}
+#book p{
+	margin: auto;
+	text-align: center;
+}
+#book h1{
+	margin: auto;
+	text-align: center;
+}
+#book img{
+	margin: auto;
+}
+body{
+	background-color:#3e3e54;
+}

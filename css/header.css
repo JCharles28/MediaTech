@@ -1,0 +1,96 @@
+<style>
+
+/* Polices d'écritures */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto+Condensed:wght@700&family=Sono:wght@500&family=Sunflower:wght@500&display=swap");
+
+*
+header{
+	width:100%;
+}
+#connect a{
+	color: black;
+	text-decoration: none;
+}
+nav {
+  justify-content: space-between;
+  background-color: #eee;
+  padding: 8px;
+}
+#menu{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+nav{
+display:flex;
+}
+nav img {
+  position:relative;
+  width: 20%;
+  height: auto;
+}
+
+nav #menu form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+nav input[type="text"] {
+  border: none;
+  background-color: #eee;
+  margin-right: 10%;
+  padding-right: 50%;
+}
+
+nav button[type="submit"] {
+  border: none;
+  background-color: transparent;
+}
+
+nav button[type="submit"] img:hover{
+  background-color: darkgray;
+}
+
+nav button[type="submit"] img {
+  width: 20px;
+  height: 20px;
+}
+.connect button{
+	background-color: blue;
+}
+
+.rectangle {
+  display: flex;
+  justify-content: space-between;
+  background-color: #eee;
+  padding: 8px;
+  width: 70%;
+  margin: auto;
+}
+
+.rectangle a {
+  text-decoration: none;
+  color: #333;
+}
+/*#menu {
+position: fixed;
+ top: 0;
+  left: 0;
+  right: 0;
+z-index: 1;
+}*/
+
+form {
+    margin: auto;
+    display: flex;
+}
+
+</style>

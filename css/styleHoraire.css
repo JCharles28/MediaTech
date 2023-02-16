@@ -1,0 +1,20 @@
+body {
+  background-color: #3e3e54;
+} 
+
+
+h1 {
+  text-align: center;
+  color : #FFFFFF ;
+  background-color: #1d2744;
+}
+
+tr {
+  background-color: #c64e8d;
+}
+
+table {
+        width: 80%;
+  
+        margin: 0 auto; 
+      }

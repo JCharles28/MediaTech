@@ -1,0 +1,41 @@
+footer a {
+display: inline-block;
+background-color: #3e3e54;
+padding: 12px;
+border-radius: 5px;
+}
+a{
+	text-decoration:none;
+}
+
+.BTNcn {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.ContactezNous {
+text-align: center;
+}
+
+
+.ftr {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: lightgray;
+}
+
+.logo {
+   display: flex;
+   justify-content: space-between;
+}
+
+.logo input {
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
+}
+
+.info {
+  margin-left: 10px;
+}
